@@ -13,7 +13,7 @@ public class Example
         YSHARP.Print("Hello, " + input + "!");
         YSHARP.Print("Equals 20 = 30: " + Return().ToString());
         YSHARP.Print("Equals 30 = 30: " + Return2().ToString());
-        YSHARP.GetUserInput('Waiting for Enter key')
+        YSHARP.GetUserInput("Waiting for Enter key");
     }
 
     private static string Return()
